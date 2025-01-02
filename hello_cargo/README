@@ -1,0 +1,14 @@
+CARGO - build system and package manager
+
+cargo new *name* - new project
+
+cargo build - builds the project and creates an executable in /target/debug/ with the name same as name of the project
+
+./target/debug/*executable* - run
+
+cargo run - cargo build + running
+
+cargo check - only to check if the project compiles, does not create an executable, faster
+
+cargo build --release - building with all the optimizations, slower but the final runtime is as fast as possible
+
